@@ -1,0 +1,18 @@
+'''Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. Shipping costs $3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies?'''
+
+
+# to find the volume of cube radius is given r=5 formula = 4/3×pi×r×r×r
+width = 17
+height = 12.0
+delimiter = '.'
+print("volume of sphere: ",4/3*3.14*5**3)
+#cost of the single book is 24.95$ 
+coverprice=24.95
+#book is bought at the discount of 40%  per book to we are finding the price after discounts
+discounted_price=coverprice*(1-0.40)
+#shipment cost is 3$ for first book and 0.75 for rest of the books
+shipmentcost=3+(60-1)*0.75
+#calculation the total price 60 books which includes the book price after discounts and shipments which equals to the final price of 60 books
+totalcost=(coverprice*60)+shipmentcost
+#printing the result 
+print(f'book cover price {bookprice}, after discounts {ogprice}, shipment cost {shipmentcost}, so the total cost of 60 books is: {totalcost} ')
